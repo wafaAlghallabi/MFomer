@@ -16,13 +16,13 @@ and [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&h
 2. [Code](#Installation)
 8. [References](#References)
 
-<hr>
 ## MFomer
 
 * We propose an approach, named MFormer, that utilizes a dynamic deformable swin transformer module to implicitly align the features of adjacent slices with the current slice at multiple scales, followed by their integration. Within the DST module, to perform feature alignment, we introduce a dynamic deformable convolution technique.
 * In order to accommodate input variations, the proposed dynamic weight predictor aggregates the weights and biases of deformable convolution kernels. It learns the aggregation coefficient based on the variances observed in the center and adjacent slices.
 * We conduct extensive experiments to validate the effectiveness of our MFormer on three datasets. Our MFormer demonstrated superior performance for MRI reconstruction and outperformed the recent HUMUS-Net
   ![main figure](block_diagram.jpg)
+  
 <hr>
 
 ## Code
